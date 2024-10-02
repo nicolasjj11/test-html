@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <title>Ejemplo de HTML5</title>
+</head>
+<body>
+    <header>
+        <h1>Aprendiendo HTML5</h1>
+        <nav>
+            <ul>
+                <li><a href="#estructura">Estructura</a></li>
+                <li><a href="#atributos">Atributos</a></li>
+                <li><a href="#texto">Texto</a></li>
+                <li><a href="#agrupacion">Agrupación</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="estructura">
+            <h2>Estructura básica de HTML5</h2>
+            <p>Este documento muestra la estructura básica de HTML5 con las etiquetas &lt;!DOCTYPE html&gt;, &lt;html&gt;, &lt;head&gt; y &lt;body&gt;.</p>
+        </section>
+
+        <section id="atributos">
+            <h2>Atributos en HTML5</h2>
+            <p>Ejemplos de atributos:</p>
+            <ul>
+                <li><code>lang</code> en &lt;html&gt;</li>
+                <li><code>charset</code> en &lt;meta&gt;</li>
+                <li><code>id</code> en varias etiquetas</li>
+                <li><code>class</code> para estilos (no usado aquí)</li>
+            </ul>
+        </section>
+
+        <section id="texto">
+            <h2>Etiquetas de texto en HTML5</h2>
+            <p>Aquí hay algunos ejemplos:</p>
+            <strong>Texto en negrita</strong><br>
+            <em>Texto en cursiva</em><br>
+            <mark>Texto resaltado</mark><br>
+            <small>Texto pequeño</small><br>
+            <del>Texto tachado</del><br>
+            <ins>Texto subrayado</ins><br>
+            <sub>Subíndice</sub> y <sup>Superíndice</sup>
+        </section>
+
+        <section id="agrupacion">
+            <h2>Etiquetas de agrupación en HTML5</h2>
+            <div>
+                <p>Este es un ejemplo de <span style="color: blue;">div y span</span>.</p>
+            </div>
+            <article>
+                <h3>Artículo de ejemplo</h3>
+                <p>Contenido del artículo.</p>
+            </article>
+            <aside>
+                <p>Contenido relacionado pero no esencial.</p>
+            </aside>
+            <figure>
+                <img src="https://images.unsplash.com/photo-1726270636148-ce86bc690f7c?q=80&w=2075&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" height="400" width="600" alt="Imagen de ejemplo">
+                <figcaption>Descripción de la imagen</figcaption>
+            </figure>
+            <details>
+                <summary>Haga clic para más información</summary>
+                <p>Aquí hay información adicional.</p>
+            </details>
+        </section>
+
+        <section id="instrucciones">
+            <h2>Inducción al parcial</h2>
+            <p>En este parcial, pondremos a prueba los conocimientos sobre <strong>HTML5</strong>, evaluando temas clave como la estructura básica del HTML5, el uso correcto de atributos, la aplicación de etiquetas de agrupación y semánticas, y la correcta inclusión de enlaces. También deberán ser conscientes de la accesibilidad y optimización de sus páginas web.</p>
+            <p>Es fundamental que todas las decisiones, etiquetas y organización del contenido se documenten adecuadamente en el archivo <strong>README.md</strong> del repositorio de GitHub.</p>
+        
+            <h3>Instrucciones del Segundo Punto</h3>
+            <ol>
+                <li>
+                    <strong>Crear el repositorio:</strong> 
+                    Uno de los integrantes debe iniciar sesión en <a href="https://github.com/" target="_blank">GitHub</a> y crear un nuevo repositorio:
+                    <ul>
+                        <li>Nombre del repositorio: <em>parcial-html-css</em></li>
+                        <li>Descripción: Añadir una breve descripción del proyecto.</li>
+                        <li>Ambos integrantes deben tener acceso.</li>
+                        <li>Incluir el archivo <code>README.md</code> marcando la casilla correspondiente.</li>
+                    </ul>
+                </li>
+                <li>
+                    <strong>Agregar a los colaboradores:</strong> 
+                    Invitar al compañero como colaborador desde la pestaña <em>Settings</em> del repositorio.
+                </li>
+                <li>
+                    <strong>Clonar el repositorio:</strong> 
+                    Clonar el repositorio en sus máquinas locales:
+                    <pre><code>git clone https://github.com/usuario/parcial-html-css.git</code></pre>
+                </li>
+                <li>
+                    <strong>Estructura semántica:</strong> 
+                    Crear una estructura HTML semántica respetando etiquetas como <code>&lt;header&gt;</code>, <code>&lt;nav&gt;</code>, <code>&lt;section&gt;</code>, etc.
+                </li>
+                <li>
+                    <strong>Reglas para los commits:</strong> 
+                    Hacer al menos tres commits con mensajes descriptivos:
+                    <ul>
+                        <li><em>(feat): agregado el menú de navegación</em></li>
+                        <li><em>(fix): corregidos los estilos de los botones</em></li>
+                        <li><em>(docs): actualización del README.md</em></li>
+                    </ul>
+                </li>
+                <li>
+                    <strong>Documentación en README.md:</strong> 
+                    Documentar las decisiones importantes del proyecto.
+                </li>
+            </ol>
+        </section>
+    </main>
+
+    <footer>
+        <p>Enlaces para la resolución del parcial:</p>
+        <a href="./pages/ParcialA.html">- Enlace para <strong>Parcial A</strong></a>
+        <br>
+        <a href="./pages/ParcialB.html">- Enlace para <strong>Parcial B</strong></a>
+    </footer>
+</body>
+</html>

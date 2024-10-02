@@ -1,0 +1,31 @@
+.wrapper {
+    width: 90%;
+    margin: 0 auto;
+}
+.header {
+    background-color: #e0e0e0;
+    padding: 20px;
+}
+.menu {
+    background-color: #ccc;
+    padding: 10px;
+}
+.main-content {
+    display: flex;
+    margin-top: 20px;
+}
+.left-column {
+    width: 70%;
+    padding: 15px;
+    background-color: #f9f9f9;
+}
+.right-column {
+    width: 30%;
+    padding: 15px;
+    background-color: #f2f2f2;
+}
+.footer {
+    background-color: #e0e0e0;
+    padding: 10px;
+    text-align: center;
+}

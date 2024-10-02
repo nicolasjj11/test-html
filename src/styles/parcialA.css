@@ -1,0 +1,31 @@
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+.header {
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+.nav {
+    background-color: #ccc;
+    padding: 15px;
+}
+.content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.section {
+    background-color: #e0e0e0;
+    width: 48%;
+    padding: 10px;
+}
+.footer {
+    background-color: #f2f2f2;
+    padding: 10px;
+    text-align: center;
+}
+.aside {
+    background-color: #d0d0d0;
+    padding: 10px;
+}
